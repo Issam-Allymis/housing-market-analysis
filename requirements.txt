@@ -139,3 +139,4 @@ widgetsnbextension==4.0.10
 wordcloud==1.9.3
 xgboost==2.0.3
 ydata-profiling==4.6.4
+yellowbrick==1.5
