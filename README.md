@@ -177,18 +177,20 @@ Visualization of the predicted price along with confidence intervals if availabl
 
 ## Unfixed Bugs
 * I faced a significant challenge while working on this project, primarily due to my limited experience in data analytics. Specifically, I encountered an AttributeError indicating that 'Pipeline' has no attribute 'transform'. This error occurred when attempting to execute a function that involved data transformation. Despite my efforts to troubleshoot and resolve the issue, I struggled to find a solution. This experience highlighted the importance of furthering my knowledge and skills in data analytics to overcome similar obstacles in the future.
-[Transform Error](/workspace/housing-market-analysis/images/error.png)
 
+![unexplainable error](https://github.com/Issam-Allymis/housing-market-analysis/assets/126810074/1f7b3f67-d0f0-4583-8619-99f378300ec3)
 
 * I encountered an unexpected issue where the presence of the dollar symbol resulted in an unusual font rendering for the text. To address this issue, I opted to prefix the euro symbol to the numerical price figures instead.
-[Font](/workspace/housing-market-analysis/images/font_issue.png)
+
+![font issue](https://github.com/Issam-Allymis/housing-market-analysis/assets/126810074/cfa1bd8c-d6c7-4905-9a68-00bfd2408654)
+
 
 
 * I encountered a ValueError during the model evaluation process, specifically while running Notebook 05. The issue arose when the notebook failed to execute smoothly with just one click, however, upon a second click, the remaining functions executed as expected. This error perplexed me, as I couldn't discern why it wasn't functioning properly despite multiple attempts to resolve this issue.
 
-[ValueError](/workspace/housing-market-analysis/images/ValueError.png)
+![click twice](https://github.com/Issam-Allymis/housing-market-analysis/assets/126810074/879d1e08-646f-4764-804c-57b5c9624bb7)
 
-[ValueErrorAfter](/workspace/housing-market-analysis/images/ValueErrorClick.png)
+![second click works](https://github.com/Issam-Allymis/housing-market-analysis/assets/126810074/1eadff7a-d44d-4b8f-9ddf-0e02815704ca)
 
 
 ## Deployment
