@@ -108,12 +108,11 @@ These hypotheses and corresponding analyses aim to provide valuable insights int
 
 - **Business Objective:** Improve the accuracy of predicting housing prices to assist real estate agents and homebuyers in making informed decisions.
 
-- **Business Success Criteria:** Achieve a Mean Absolute Error (MAE) of less than $20,000 on the test dataset.
 - **Key Stakeholders:** Real estate agents, homebuyers, data scientists, business analysts.
 
 ### Data Collection:
-- **Data Sources:** Obtain housing market data from public datasets, real estate websites, and government databases.
-- **Data Description:** Collect information on various features such as square footage, number of bedrooms, location, year built, sale price, etc.
+- **Data Sources:** Obtain housing market data from public datasets, Kaggle.
+- **Data Description:** Collect information on various features such as square footage, size of the garage, Above grade ground living area, garage finish, year built, sale price, etc.
 - **Data Permissions:** Ensure compliance with data privacy regulations and obtain necessary permissions to use the data.
 - **Data Quality Check:** Assess the quality of the collected data, check for missing values, duplicates, and inconsistencies.
 

@@ -20,16 +20,6 @@ def page_prospect_body():
                       .to_list()
                       )
 
-    # load predict tenure files
-    # version = 'v1'
-    # tenure_pipe = load_pkl_file(
-    #   f"outputs/ml_pipeline/predict_tenure/{version}/clf_pipeline.pkl")
-    # tenure_labels_map = load_pkl_file(
-    #   f"outputs/ml_pipeline/predict_tenure/{version}/label_map.pkl")
-    # tenure_features = (pd.read_csv(f"outputs/ml_pipeline/predict_tenure/{version}/X_train.csv")
-    #                 .columns
-    #                 .to_list()
-    #               )
 
     # load cluster analysis files
     version = 'v1'
@@ -58,16 +48,12 @@ def page_prospect_body():
 
     # predict on live data
     if st.button("Run Predictive Analysis"):
-        saleprice_prediction = predict_saleprice(
-            X_live, saleprice_features, saleprice_pipe_dc_fe, saleprice_pipe_model)
+        # saleprice_prediction = predict_saleprice(
+           # X_live, saleprice_features, saleprice_pipe_dc_fe, saleprice_pipe_model)
 
         predict_cluster(X_live, cluster_features,
                         cluster_pipe, cluster_profile)
 
-        
-        # if saleprice_prediction == 1:
-        #        predict_tenure(X_live, tenure_features,
-        #                    tenure_pipe, tenure_labels_map)
 
 def check_variables_for_UI(saleprice_features, cluster_features):
     import itertools
@@ -105,7 +91,7 @@ def DrawInputsWidgets():
         feature = "YearBuilt"
         st_widget = st.selectbox(
             label=feature,
-            options=df[feature].unique()
+            options=sorted(df[feature].unique())
         )
     X_live[feature] = st_widget
 
@@ -113,7 +99,7 @@ def DrawInputsWidgets():
         feature = "BsmtFinSF1"
         st_widget = st.selectbox(
             label=feature,
-            options=df[feature].unique()
+            options=sorted(df[feature].unique())
         )
     X_live[feature] = st_widget
 
@@ -131,7 +117,7 @@ def DrawInputsWidgets():
         feature = "TotalBsmtSF"
         st_widget = st.selectbox(
             label=feature,
-            options=df[feature].unique()
+            options=sorted(df[feature].unique())
         )
     X_live[feature] = st_widget
 
@@ -147,7 +133,7 @@ def DrawInputsWidgets():
         feature = "OverallQual"
         st_widget = st.selectbox(
             label=feature,
-            options=df[feature].unique()
+            options=sorted(df[feature].unique())
         )
     X_live[feature] = st_widget
 
