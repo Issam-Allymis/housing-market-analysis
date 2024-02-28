@@ -79,7 +79,7 @@ networkx==2.6.3
 notebook==7.0.8
 notebook_shim==0.2.3
 numba==0.58.1
-numpy==1.25.2
+numpy==1.24.4
 overrides==7.7.0
 packaging==23.2
 pandas==1.5.3
@@ -127,7 +127,7 @@ scipy==1.11.4
 seaborn==0.12.2
 Send2Trash==1.8.2
 six==1.16.0
-smmap==5.0.10
+smmap==5.0.1
 soupsieve==2.5
 stack-data==0.6.3
 statsmodels==0.14.1
