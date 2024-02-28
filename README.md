@@ -196,6 +196,8 @@ Visualization of the predicted price along with confidence intervals if availabl
 
 I attempted to update my Python version, but that didn't resolve the issue. Additionally, I tried downgrading the suggested files, but I still encountered difficulties with the deployment process.
 
+![error](https://github.com/Issam-Allymis/housing-market-analysis/assets/126810074/6994aee6-ece0-4e93-b91d-06474d1faee7)
+
 
 ## Deployment
 ### Heroku
