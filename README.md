@@ -192,6 +192,10 @@ Visualization of the predicted price along with confidence intervals if availabl
 
 ![second click works](https://github.com/Issam-Allymis/housing-market-analysis/assets/126810074/1eadff7a-d44d-4b8f-9ddf-0e02815704ca)
 
+* I encountered numerous issues while attempting to deploy my project on Heroku. Despite trying various solutions, I found myself constantly facing new errors. Despite my troubleshooting efforts, I couldn't pinpoint why a new error would arise each time.
+
+I attempted to update my Python version, but that didn't resolve the issue. Additionally, I tried downgrading the suggested files, but I still encountered difficulties with the deployment process.
+
 
 ## Deployment
 ### Heroku
