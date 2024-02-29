@@ -2,3 +2,5 @@ Pipeline.py
 wordcloud/
 imbalanced-learn/
 xgboost/
+GitPython==3.1.42/
+archive.zip/
